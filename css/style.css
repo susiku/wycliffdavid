@@ -1,0 +1,30 @@
+#header {
+  display: flex;
+  justify-content: space-between;
+  background-color: yellow;
+  position: fixed;
+  top: 0;
+  /* z-index: 99; */
+  height: 20px;
+}
+
+@media screen and (min-width: 480px) {
+  body {
+    background-color: lightgreen;
+  }
+}
+/* #nav-bar ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+} */
+
+/* @media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+} */
